@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Charcaterie Style Guide</title>
+    <title>Portfolio Style Guide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
 
@@ -30,15 +30,15 @@
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
-      <h2>Interactive Elements</h2>
+       <h3 class="border-bottom border-light-pink padding-16">Interactive Elements</h3>
 
 
       <section class="element">
         <h3>In-text link</h3>
-        This is a link to <a class = "text-link" href="https://en.wikipedia.org/wiki/Cheese">cheese</a> 
+        <p>This is a link to my <a href="assets/Moreau_Jennifer_Resume.pdf">Resume</a></p>
 
         <h3>sample code</h3>
-        <code> &lt;p&gt; This is a link to &lt;a class = "text-link" href="https://en.wikipedia.org/wiki/Cheese" &lt;/a&gt; </code>
+        <code> &lt;p&gt; This is a link to my&lt;a class = "text-link" assets/Moreau_Jennifer_Resume.pdf" &lt;/a&gt; </code>
 
       </section>
 
@@ -70,14 +70,13 @@
       <section class="element">
         <h3>Text Input Field with Label</h3>
 
-//used http://html5doctor.com/ for this section
         <form>
-          <label for="cheesetype">Favourite Cheese:</label>
-          <input type="text" id="cheesetype" name="cheesetype">
+          <label for="contactEmail">Email:</label>
+          <input type="text" id="email" name="email">
         </form>
 
         <h3>sample code</h3>
-        <code> &lt;input type="text" id="cheesetype" placeholder="cheesetype"&gt;</code>
+        <code> &lt;input type="text" id="email" placeholder="email"&gt;</code>
 
       </section>
 
@@ -108,7 +107,7 @@
 
     <!-- TEXT ELEMENTS SECTION // -->
     <section id="text_elements">
-      <h2>Text Elements</h2>
+      <h3 class="border-bottom border-light-pink padding-16">Textual Elements</h3>
 
       <section class="element">
         <h3>Headings</h3>
@@ -122,101 +121,91 @@
     </section>
     <!-- // TEXT ELEMENTS SECTION -->
    <section id="company_brand">
-    <h3>Logo</h3>
-   <img src="assets/charcat logo.png" alt="Logo" style="width:20%">
+    <!--<h3>Logo</h3>-->
 
-   <h3>Palette<h3>
+    <h3 class="border-bottom border-light-pink padding-16">Branding</h3>
   <img src="assets/palette 2.png" alt="Palette" style="width:20%">
    </section>
 
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
-      <h2>Combined Elements</h2>
+       <h3 class="border-bottom border-light-pink padding-16">Combined Elements</h3>
 
       <section class="element">
         <h3>Main Navigation</h3>
-        <a class="button-nav" href="#">Home</a>
-        <a class="button-nav" href="#">About Us</a>
-        <a class="button-nav" href="#">Our Cats</a>
-        <a class="button-nav" href="#">Menu</a>
-        <a class="button-nav" href="#">Book a Time</a>
+        <a class="button" href="#">Projects</a>
+        <a class="button" href="#">About</a>
+        <a class="button" href="#">Contact</a>
       </section>
     </section>
 
 <section id = "listings" class = "element">
 
-  <h3>Service listing</h3>
-  <div class = "listing-group">
-    <div class = "listing-container">
-      <div>
-      <img src=" assets/billy rsz.png " alt = "Billy">
-      <h3>Billy, 5yrs</h3>
-      <p>Energetic, friendly, & cuddly!</p>
-      <a class="button-nav" href="#">Apply to Adopt</a>
-      </div>
+  <h3>Project listing</h3>
+  <div class="content padding" style="max-width:1564px">
 
-    </div>
+  <!-- Project Section -->
+  <div class="container padding-32" id="projects">
+    <h3 class="border-bottom border-light-pink padding-16">Projects</h3>
+  </div>
 
-    <div class = "listing-container">
-      <div>
-      <img src=" assets/pair rsz.png " alt = "Pair">
-      <h3>Dolly & Rose, 8mos</h3>
-      <p>A bonded young, quirky pair</p>
-      <a class="button-nav" href="#">Apply to Adopt</a>
-      </div>
-
-    </div>
-    <div class = "listing-container">
-      <div>
-      <img src=" assets/petunia rsz.jpg " alt = "Petunia" >
-      <h3>Petunia, 3yrs</h3>
-      <p>Sweet and shy</p>
-      <a class="button-nav" href="#">Apply to Adopt</a>
+  <div class="row-padding">
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding"></div>
+        <img src="/assets/.jpg" alt="" style="width:100%">
       </div>
     </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding"></div>
+        <img src="/assets/.jpg" alt="" style="width:100%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding"></div>
+        <img src="/assets/.jpg" alt="" style="width:100%">
+      </div>
+    </div>
+  </div>
 
+  <div class="row-padding">
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Festival & Artist Advertisement Project</div>
+        <img src="/assets/.jpg" alt="" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Design Feature Integration</div>
+        <img src="/assets/.jpg" alt="" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Newspaper Spread for Print & Web</div>
+        <img src="/assets/.jpg" alt="" style="width:99%">
+      </div>
+    </div>
   </div>
 </section>
 
 
 <section id="apply_form">
 <br>
-<h2> Apply for Adoption Form </h2>
-
-      <div id="wrapper">
-      <div id="container">
-     <h3>Your Information</h3>
-      <div id="logotype">
-        <img id="charcat_logo" src="P1-Style_Guide_Process/assets/charcat_logo.png" alt="" />
-      </div>
-      
-      <form action="">
-        <div id="left-col">
-        <label for="">Full Name</label>
-        <input id="name" type="text" placeholder="John Doe" />
-          <label for="">Phone Number</label>
-          <input id="phone" type="text" placeholder="604-555-1234" />
-          <label for="">Email</label>
-          <input id="email" type="text" placeholder="john@gmail.com"/>
-        </div>
-        <div id="right-col">
-        <label for="">Household & Lifestyle</label>
-        <textarea name="bigfield" rows="5" placeholder="I work from home and have another cat and a young child, we are a very active and energetic house" ></textarea>
-        <br>
-        <a class="button" href="#">Apply Now</a>
-      </form>
-        </div>
-      </div>
-    </div>
+ <h3 class="border-bottom border-light-pink padding-16">Project Detail View</h3>
    </section>
 
     <section id="citations">
-      <h2>Citations</h2>
+      <h3 class="border-bottom border-light-pink padding-16">Citations</h3>
 
       <ul>
-        https://www.dailypaws.com/gear-apparel/cat-supplies/cat-clothing-accessories/cat-sweaters 
 
         https://jonitrythall.com/flexbox-cheatsheet
+
+        http://html5doctor.com/
       </ul>
 
     </section>
