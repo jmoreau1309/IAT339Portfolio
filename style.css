@@ -508,7 +508,7 @@ a{
 }
 
 .row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col{
-    padding:0 8px
+    padding:0 16px
 }
 
 .code,.codespan{
@@ -593,6 +593,11 @@ a{
 .padding-32{
     padding-top:32px!important;
     padding-bottom:32px!important
+}
+
+.padding-64{
+    padding-top:64px!important;
+    padding-bottom:64px!important
 }
 
 .padding-top-32{
